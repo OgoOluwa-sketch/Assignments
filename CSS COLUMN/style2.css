@@ -1,0 +1,59 @@
+/*CSS Grid Layout*/
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    place-items: centre;
+    height: 100vh;
+    background-color: midnightblue;
+    display: grid;
+}
+.grid-container {
+    display: grid;
+   
+    grid-template-columns: 180px 150px 200px;
+    grid-template-rows: 170px 80px 80px;
+     width: 50%;
+    gap: 10%;
+    grid-template-areas: 
+    'a a b'
+    'c d d'
+    'c e e'
+    ;
+   }
+main { margin: auto;
+    padding: auto;
+    
+     display: grid;
+}
+
+.item-a {
+    background-color: #eb5020;
+    grid-area: a; 
+
+}
+.item-b {
+    background-color: #ffa401;
+    grid-area: b;
+}
+.item-c {
+    background-color: #05aa42;
+    grid-area: c;
+}
+.item-d {
+    background-color: #01aefd;
+    grid-area: d;
+}
+.item-e {
+    background-color: #01aefd;
+    grid-area: e;
+}
+.connect {
+    margin-bottom: auto;
+    padding: 10px 0px 10px 0px;
+    cursor: pointer;
+    font-size: 25px;
+    text-align: center;
+color: aliceblue;
+}

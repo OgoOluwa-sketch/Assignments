@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration Page</title>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <div id="centrereg">
+      <header>
+        <h1 style="text-align: center; text-decoration-color: antiquewhite;"> NEW HERE? <br> SIGN UP BELOW</h1>
+      </header>
+        <div id="maininforeg">
+        <form action="./login.html">
+          <table>
+               <tr>
+                   <td>
+                       <label for="fname">First Name:</label>
+                   </td>
+                   <td>
+                       <input type="text" name="fname" id="fname" required>
+                   </td>
+               </tr>
+               <tr>
+                <td>
+                    <label for="lname">Last Name:</label>
+                </td>
+                <td>
+                    <input type="text" name="lname" id="lname" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="pno">Phone Number:</label>
+                </td>
+                <td>
+                    <input type="number" name="pno" id="pno">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="email">Email:</label>
+                </td>
+                <td>
+                   <input type="email" name="email" id="email">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="gender">Gender:</label>
+                </td>
+                <td>
+                    <select name="gender" id="gender" required>
+                        <option value="Female">Female</option>
+                        <option value="Male">Male</option>
+                        <option value="Others">Others</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="dob">Date of Birth:</label>
+                </td>
+                <td>
+                    <input type="date" name="dob" id="dob" max="2004-01-01" min="1992-01-01" required>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="favcol">Favourite Colour:</label>
+                </td>
+                <td>
+                    <input type="color" name="favcol" id="favcol">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="pw">Password:</label>
+                </td>
+                <td>
+                    <input type="password" name="pw" id="pw">
+                </td>
+            </tr>
+
+        
+          </table>
+          <input type="submit" value="Submit" id="submit">
+        
+        </form>
+        <p>
+            Already have an account?  <button type="submit" formaction="login.html" id="submit"> Login</button>
+        </p>
+    </div>
+    <div>
+        <p>
+            <input type="checkbox" name="terms" id="terms">
+            <label for="terms"> I agree to the <a href="#">Terms of Service</a> and <a href="#">Privacy Policy</a></label>
+        </p>
+    </div>
+    <div>
+      
+    </div>
+    </div>
+
+  </body>
+</html>

@@ -1,0 +1,87 @@
+/* 3-Column Card Design Using CSS Flexbox Layout */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Helvetica, sans-serif;
+}
+body {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-content: center;
+    min-height: 100vh;
+    
+}
+.generalbox{
+    display: flex;
+    width: 100%;
+    max-width: 1440px;
+    align-items: center;
+    justify-content: center;
+}
+.bx {
+    width: 269px;
+    padding: 15px;
+    min-height: 430px;
+}
+.box1 {
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    background-color: hsl(31, 77%, 52%);
+}
+.box2 { background-color: hsl(185, 100%, 22%);
+
+}
+.box3 {
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: hsl(179, 100%, 13%);
+}
+h3 {
+    margin: 20px 0;
+    color: hsl(0, 0%, 95%);
+    font-family:Helvetica, sans-serif;
+    text-transform: uppercase;
+}
+.content {
+    padding: 10px;
+}
+p {
+    font-family:Helvetica, sans-serif;
+    color: hsl(0, 0%, 95%); 
+}
+.bt {
+    border: 0;
+    border-radius: 30px;
+    outline: none;
+    font-size: 15px;
+    font-family:Helvetica, sans-serif;
+    font-weight: 700;
+    margin: 60px 0;
+    padding: 15px 40px;
+}
+.bt1 {
+    color: hsl(31, 77%, 52%);
+}
+.bt2 {
+    color: hsl(184, 100%, 22%);
+}
+.bt3 {
+    color: hsl(179, 100%, 13%);
+}
+.bt:hover {
+    color: white;
+    background-color: transparent;
+    border: 2px solid white;
+    transition: 0.6s;
+}
+.connect {
+    margin-bottom: auto;
+    padding: 10px 0px 10px 0px;
+    cursor: pointer;
+    font-size: 25px;
+    text-align: center;
+}
+
+
